@@ -1,0 +1,102 @@
+.container-wrap {
+    margin: auto;
+    padding: 0px;
+}
+
+.title-trac-nghiem {
+    color: rgb(226, 144, 0);
+    padding: 1rem;
+    display: block;
+}
+.title-trac-nghiem-a {
+    padding: 0 1rem 1rem;
+}
+.title-trac-nghiem-a:hover {
+    text-decoration: underline;
+    color: var(--color-green);
+    padding: 0 1rem 1rem;
+}
+
+.img-ranking {
+    width: 34px;
+    height: 34px;
+}
+
+.title-ranking {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+}
+
+.wrap-icon-title-ranking {
+    padding: 1rem;
+    background: linear-gradient(0deg, #04b19a, #99ffff);
+    margin-bottom: 1rem;
+}
+
+.wrap-icon-title-ranking > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.icon-avata > img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--primary);
+    border-radius: 50%;
+}
+.item-rank {
+    position: relative;
+    padding-left: 1rem;
+}
+.rank-user {
+    display: block;
+    text-align: center;
+    border: 1px solid var(--color-green);
+    border-radius: 50%;
+    font-size: 16px;
+    background-color: var(--primary);
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 31px;
+}
+
+.name-user {
+    width: 30px;
+    height: 30px;
+    padding-left: 1rem;
+    padding-right: 10px;
+}
+.my-rank {
+    padding-top: 10px;
+    border-top: 1px solid var(--color-green);
+}
+.name-user > span {
+    text-transform: none;
+    font-weight: normal;
+    white-space: nowrap; /* Ngăn chặn việc xuống dòng */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Hiển thị dấu ... khi tràn */
+}
+.point {
+    width: 30px;
+    height: 30px;
+    border-left: 1px solid #a4a4a4;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.point > span {
+    color: #333;
+}
+
+.point > img {
+    width: 17px;
+    padding-left: 3px;
+}

@@ -1,0 +1,137 @@
+.wrap-banner {
+    width: 250px;
+    height: 450px;
+    background: linear-gradient(0deg, #04b19a, #99ffff);
+}
+
+.banner > img {
+    width: 12rem;
+}
+
+.banner > p {
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.wrap-content > input {
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    box-shadow: unset;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.wrap-content > span > a {
+    color: var(--color-green);
+}
+.wrap-content > span > a:hover {
+    color: var(--color-orange);
+}
+
+.wrap-content > span {
+    font-weight: bold;
+}
+
+.wrap-content > button {
+    color: #fff;
+    background-color: var(--color-orange);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.wrap-content > button > a {
+    color: #fff;
+}
+
+.wrap-content > * {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.wrap-option-code {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba($color: #948f8f, $alpha: 0.5);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.wrap-option-code > div {
+    background-color: white;
+    width: 25rem;
+    height: 30rem;
+    z-index: 3;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.1215686275);
+    gap: 1rem;
+    padding: 0.5rem 1.25rem 1.25rem;
+    border-radius: 10px;
+}
+
+.wrap-option-code > div > span {
+    font-size: 20px;
+}
+
+.wrap-option-code > div > a {
+    background-color: var(--color-orange);
+    padding: 5px;
+    color: #fff;
+    border: 1px solid var(--color-orange);
+    border-radius: 5px;
+}
+
+.option-code-2 {
+    margin: 0px 3rem;
+}
+
+.background-title {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.title {
+    position: absolute;
+    top: 12px;
+}
+
+.state {
+    animation: colorChange 1s infinite alternate;
+    font-style: italic;
+}
+
+@keyframes colorChange {
+    50% {
+        color: var(--color-green);
+    }
+    100% {
+        color: var(--color-orange);
+    }
+}
+
+.initial-price {
+    color: #b2b2b2;
+    text-decoration: line-through;
+    font-size: 15px !important;
+}
+
+.price-after-discount {
+    font-weight: bold;
+}
+
+.close-option-code {
+    position: fixed;
+    background-color: rgba($color: #000000, $alpha: 0);
+    top: 1rem;
+    right: 1rem;
+    border: none;
+    z-index: 3;
+}

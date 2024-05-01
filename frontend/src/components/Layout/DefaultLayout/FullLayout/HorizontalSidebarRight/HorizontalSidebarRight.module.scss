@@ -1,0 +1,25 @@
+.wrapper-sidebar-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-menu-course {
+    padding: 0px 5rem;
+}
+h5 {
+    color: rgb(134, 169, 55);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.container-content-wrap-r {
+    background: rgb(246, 247, 248);
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.container-wrap-sidebar {
+    width: 35%;
+}

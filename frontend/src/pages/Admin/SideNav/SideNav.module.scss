@@ -1,0 +1,25 @@
+.wrap-side-nav {
+    position: fixed !important;
+}
+.wrap-menu-nav {
+    width: 100%;
+}
+
+.wrap-sidebar {
+    max-height: calc(100vh - 4rem) !important;
+}
+
+.title-subjects {
+    font-size: 14px !important;
+    text-align: left;
+    font-style: italic;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.logout {
+    font-size: 12px;
+    font-style: italic;
+    text-decoration: underline;
+    color: var(--color-green) !important;
+}

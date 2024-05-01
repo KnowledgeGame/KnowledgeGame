@@ -1,0 +1,127 @@
+.contain-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.121568);
+    min-width: 40rem;
+}
+input.display-block {
+    width: fit-content;
+}
+.text-center {
+    text-align: center;
+}
+
+.element-space {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.login-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #252525;
+    font-family: OpenSans, sans-serif !important;
+}
+
+.login-outside {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.btn-login-facebook {
+    font-weight: bold;
+    border-radius: 0.75rem;
+    background-color: #0e88e2;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.btn-login-gmail {
+    font-weight: bold;
+    border-radius: 0.75rem;
+    background-color: #ff3d00;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.login-or {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.75;
+}
+
+.login-input {
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background: #fff;
+    color: #333 !important;
+    border: 1px solid #e1e1e1;
+}
+
+.user-remember-forget {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-remember-forget > div > label {
+    font-weight: 700;
+    padding-left: 0.5rem;
+}
+
+.user-forget > a > button {
+    color: var(--color-green);
+    border: none;
+    background-color: #fff;
+    border-bottom: 1px solid var(--color-green);
+    cursor: pointer;
+}
+.contain-login a:hover,
+.user-forget:hover > a > button {
+    color: var(--primary);
+    border-color: var(--primary);
+    transition: color 0.3s ease;
+}
+
+.contain-login a {
+    text-decoration: underline;
+    padding-left: 5px;
+    color: var(--color-green);
+}
+
+.contain-login span {
+    color: #252525;
+    font-family: OpenSans, sans-serif !important;
+    font-size: 16px;
+    text-transform: none;
+}
+
+.btn-login > button {
+    font-weight: bold;
+    border-radius: 9999px;
+    background: #e29000;
+    color: #fff;
+    transition: background 0.3s ease, color 0.3s ease;
+    padding: 0.7rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-login:hover > button {
+    background-color: var(--color-green);
+}
+
+.container-hotline {
+    margin-top: 1.5rem;
+}

@@ -1,0 +1,41 @@
+.sidebar {
+    height: 4rem;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sidebar:hover {
+    background: linear-gradient(0deg, #04b19a, #99ffff);
+    color: white;
+    cursor: pointer;
+}
+
+.sidebar:hover > .span-sidebar {
+    color: white;
+}
+
+.span-sidebar {
+    color: #333;
+    width: 100%;
+    min-width: 100px;
+}
+
+.active {
+    background: linear-gradient(0deg, #04b19a, #99ffff);
+    color: white;
+    cursor: pointer;
+}
+
+.logoSubject {
+    width: 30px;
+    margin-top: 5px;
+}
+
+.container-menu-subject {
+    margin-top: 5px;
+    background-color: #fff;
+}
